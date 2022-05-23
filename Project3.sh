@@ -11,7 +11,7 @@ if (( "$X" < "$Y"))
 elif (( "$X" == "$Y"))
 	then
 		echo "X is equal Y"
-elif (( "$X" > "$Y"))
+else (( "$X" > "$Y"))
 	then
 		echo "X is greater than Y"	
 fi
